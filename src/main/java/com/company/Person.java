@@ -24,7 +24,7 @@ public class Person {
 
     public Person setAge(int age) {
         if (age < 0) {
-            throw new IllegalArgumentException("Age cannot be lower than 0")
+            throw new IllegalArgumentException("Age cannot be lower than 0");
         }
         this.age = age;
         return this;
